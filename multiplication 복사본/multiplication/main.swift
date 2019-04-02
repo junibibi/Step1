@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+/*
 //1-1
 var str = "hello, ios World"
 print(str)
@@ -73,4 +73,25 @@ for a in 6...7 {
     }
 }
 
+
+//1-5
+print("이중for 구문으로 구구단출력")
+var jh = 0
+for j in 2..<10 {
+    for h in 1..<10 {
+        jh = j * h
+        print(jh)
+    }
+}
+*/
+print("홀수단만 출력")
+var gd = 0
+for g in 2..<10 {
+    for d in 1..<10 {
+    gd = g * d
+        if g % 2 == 1 {
+            print(gd)
+        }
+    }
+}
 
