@@ -45,3 +45,32 @@ for num in 1..<10 {
     fifthNums = fifth * num
     print(fifthNums)
 }
+
+
+//1-4
+print("while를 이용한 6단")
+var num = 1
+
+while (num < 10) {
+   print(6 * num)
+    num = num + 1
+}
+
+print("while를 이용한 7단")
+var num2 = 1
+
+while (num2 < 10) {
+    print(7 * num2)
+    num2 = num2 + 1
+}
+
+print("for를 이용한 6단 7단")
+var ab = 0
+for a in 6...7 {
+    for b in 1..<10 {
+        ab = a * b
+        print(ab)
+    }
+}
+
+
