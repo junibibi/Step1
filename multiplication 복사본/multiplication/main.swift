@@ -29,3 +29,19 @@ for num in 1..<10 {
     print(thirdNums)
 }
 
+
+//1-3
+print("4단, 5단")
+var fourthNums = 0
+var fourth = 4
+for num in 1..<10 {
+    fourthNums = fourth * num
+    print(fourthNums)
+}
+
+var fifthNums = 0
+var fifth = 5
+for num in 1..<10 {
+    fifthNums = fifth * num
+    print(fifthNums)
+}
