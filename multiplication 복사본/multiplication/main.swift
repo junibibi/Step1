@@ -21,6 +21,12 @@ for num in 1..<10 {
     secondNums = second * num
     print(secondNums)
 }
+print("2단 한번더")
+let i = 2
+for j in 1..<10 {
+ print( i * j)
+}
+ 
 print("3단")
 var thirdNums = 0
 var third = 3
@@ -83,7 +89,7 @@ for j in 2..<10 {
         print(jh)
     }
 }
-*/
+
 print("홀수단만 출력")
 var gd = 0
 for g in 2..<10 {
@@ -94,4 +100,28 @@ for g in 2..<10 {
         }
     }
 }
+
+print("홀수단만 출력")
+for g in 2..<10 {
+    for d in 1..<10 {
+        if g % 2 == 1 {
+            print(g*d)
+        }
+    }
+}
+*/
+
+
+//1-6
+print("2단결과값을 구구단배열에 저장")
+var gugudan = [Int].init(repeating: 0, count: 9)
+
+func gugu (i: Int) ->Array<Int> {
+    for index in 1...9 {
+        gugudan[index-1]=(i*index)
+    }
+    return gugudan
+}
+
+print(gugu(i: 4))
 
