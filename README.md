@@ -1,2 +1,2 @@
-# Step1
+# gugudan
 구구단
